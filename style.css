@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.w-100-height{
+    height: 80vh;
+    width: 100%;
+}
+
+.carousel-item{
+    min-height: 300px;
+}
+
+.carousel-inner .carousel-caption{
+   text-align: left;
+   margin-bottom: 200px ;
+   z-index: 30;
+}
+
+.carousel-inner .carousel-caption h5{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.carousel-inner::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    top: 0;
+    left: 0;
+}
